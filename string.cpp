@@ -13,4 +13,10 @@ int main() {
   swap(pre[a], pre[b])
   swap(pre, post)
   cout << pre << post << endl;
+ 
+ // 1文字ずつ
+ string str = "abcde";
+ for(int i = 0; i < (int)str.size(); ++i){
+  char ch = str[i];
+ }
 }
