@@ -16,7 +16,14 @@ int main() {
  
  // 1文字ずつ
  string str = "abcde";
- for(int i = 0; i < (int)str.size(); ++i){
-  char ch = str[i];
- }
+  for (int i = 0; i < w; ++i) {
+    for (int j = 0; j < h; ++j) {
+      string ch = str.substr(j, 1);
+        if (ch == "#") {
+          data.at(i).at(j) = 1;
+        } else {
+          data.at(i).at(j) = 0;
+        }
+    }
+  }
 }
