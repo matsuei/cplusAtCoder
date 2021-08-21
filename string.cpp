@@ -19,4 +19,11 @@ int main() {
   for (int i = 0; i < str.size(); ++i) {
     s.at(i);
   }
+ 
+ // 辞書順列挙
+ string str;
+ sort(str.begin(), str.end());
+ do {
+  cout << str << endl;
+ } while(next_permutation(str.begin(), str.end()));
 }
