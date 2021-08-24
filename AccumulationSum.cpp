@@ -1,3 +1,5 @@
+// 累積和　https://qiita.com/xryuseix/items/1059101a31107ba330d4
+
 int main() {
   int n;
   cin >> n;
