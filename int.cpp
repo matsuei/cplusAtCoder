@@ -42,4 +42,6 @@ int main() {
     a = b;
   }
   cout << count << endl;
+  
+  vector<pair<int, int>> twiceArray;
 }
