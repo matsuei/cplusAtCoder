@@ -15,6 +15,7 @@ int main() {
   
   vector<int> a(0);
   for (int i = 0; i < (int)str.length(); ++i) {
+    // 1桁ずつ
     a.push_back((int)(str[i] - '0'));
   }
   
