@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-// n個の
+// n個の正の整数aiから任意の数を選び、wにできるか
 int main() {
     // 入力受け取り
     int N, W;
